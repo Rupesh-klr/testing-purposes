@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html forms</title>
+    </head>
+    <body>
+         
+        <h3>FORMS</h3>
+        <hr/>
+        <form name="reg">
+            <table border="1px">
+                <tr>
+                    <th colspan="5"> <h3>REGISTRATION FORM</h3></th>
+                </tr>
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" name="firstname" value="" required/><td/>
+                </tr>
+
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="lastname" value="" required/><td/>
+                </tr>
+                <tr>
+                    <td>Email address</td>
+                    <td><input type="email" name="emailaddress" value=""/><td/>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city" value="" required</td>
+                </tr>
+                
+            <tr>
+                <td>country</td>
+                <td>
+                <select name="country">
+                    <option value="choose country">choose country</option>
+                    <option value="ind">ind</option>
+                    <option value="pak">pak</option>
+                    <option value="usa">usa</option>
+                </select> 
+                <td/>
+            </tr>
+            
+            <tr>
+                <td>gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"/>male
+                    <input type="radio" name="gender" value="female"/>female
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                <img src="https://thumbs.dreamstime.com/b/register-here-square-d-realistic-isolated-glass-web-button-register-here-register-here-button-119894549.jpg" alt="Italian Trulli" width="100px">
+                </td>      
+            </tr>
+
+
+
+
+
+
+
+    </body>
+</html>
